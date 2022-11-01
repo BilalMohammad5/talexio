@@ -1,0 +1,7 @@
+{
+    "watch": ["src"],
+    "ext": "ts,hbs,graphql",
+    "execMap": {
+        "ts": "ts-node -T"
+    }
+}

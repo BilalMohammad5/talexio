@@ -1,0 +1,16 @@
+{
+    "extends": ["tslint:recommended", "tslint-jest", "tslint-config-prettier"],
+    "linterOptions": {
+        "exclude": ["coverage/**/*", "jest.config.js"]
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "rules": {
+        "prettier": true,
+        "interface-name": [true, "never-prefix"],
+        "no-empty-interface": false,
+        "object-literal-sort-keys": false,
+        "no-floating-promises": true,
+        "no-promise-as-boolean": true,
+        "no-restricted-globals": [true, "Big", "IBAN"]
+    }
+}

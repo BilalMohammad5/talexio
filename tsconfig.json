@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "lib": ["DOM", "ES2020.Promise", "ES2020.String"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "incremental": true,
+        "tsBuildInfoFile": ".tsbuildinfo",
+        "outDir": "build",
+        "sourceMap": true,
+        "importHelpers": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+    }
+}
